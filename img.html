@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img.css">
+    <title>Image Gallery By Trupti</title>
+</head>
+<body>
+  <!-- Heading Name -->
+  <div class="heading">
+    <h1>Image Gallery By Trupti</h1>
+  </div>
+    <!-- Image Gallery section all image in one div -->
+    <div class="gallery">
+    <div class="gallery-item">
+      <img 
+ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6W6yCoqI9xYbv_kgO2V9Kvnf6edEU_8Z6gA&s" 
+onclick="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6W6yCoqI9xYbv_kgO2V9Kvnf6edEU_8Z6gA&s')" alt="Image 1">
+    </div>
+    <div class="gallery-item">
+      <img 
+ src="https://cdn.wallpapersafari.com/72/64/YAwbIk.jpg" 
+onclick="openModal('https://cdn.wallpapersafari.com/72/64/YAwbIk.jpg')" alt="Image 2">
+    </div>
+    <div class="gallery-item">
+      <img src="https://thelaughingdoggallery.com/wp/wp-content/uploads/Laughing-Dog-Gallery-Gallery-Updates-139-1200x640.jpg"
+onclick="openModal('https://thelaughingdoggallery.com/wp/wp-content/uploads/Laughing-Dog-Gallery-Gallery-Updates-139-1200x640.jpg')" alt="Image 2">
+    </div>
+    <div class="gallery-item">
+      <img src="https://www.shutterstock.com/image-photo/tabby-cat-stands-on-rock-600nw-1991451257.jpg" 
+onclick="openModal('https://www.shutterstock.com/image-photo/tabby-cat-stands-on-rock-600nw-1991451257.jpg')" alt="Image 3">
+    </div>
+    <div class="gallery-item">
+      <img 
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMh1i2YHyk8XlWnDBoEeoRcuiYu0H8j1lJyQ&s" 
+           onclick="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMh1i2YHyk8XlWnDBoEeoRcuiYu0H8j1lJyQ&s')" alt="Image 4">
+    </div>
+    <div class="gallery-item">
+      <img 
+src="https://c4.wallpaperflare.com/wallpaper/58/88/907/high-definition-wallpapers-laptop-wallpaper-desktop-gallery-pansies-beautiful-wallpaper-wallpaper-preview.jpg" 
+ onclick="openModal('https://c4.wallpaperflare.com/wallpaper/58/88/907/high-definition-wallpapers-laptop-wallpaper-desktop-gallery-pansies-beautiful-wallpaper-wallpaper-preview.jpg')" alt="Image 5">
+    </div>
+    <div class="gallery-item">
+      <img 
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwMznGGK__irAnGytp54Sfv5Susw-vfklaYQ&s" 
+onclick="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwMznGGK__irAnGytp54Sfv5Susw-vfklaYQ&s')" alt="Image 6">
+    </div>
+    <div class="gallery-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc8EhXF4fZNOu2Ko-v6k5GpLpfB7Vq6jWR3w&s" 
+      onclick="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc8EhXF4fZNOu2Ko-v6k5GpLpfB7Vq6jWR3w&s')" alt="Image 7">
+    </div>
+    <div class="gallery-item">
+      <img 
+src="https://png.pngtree.com/background/20230519/original/pngtree-hawaiin-natural-landscape-wallpapers-picture-image_2667195.jpg" 
+onclick="openModal('https://png.pngtree.com/background/20230519/original/pngtree-hawaiin-natural-landscape-wallpapers-picture-image_2667195.jpg')" alt="Image 8">
+    </div>
+  </div>
+    <div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+    <script src="img.js"></script>
+</body>
+</html>
